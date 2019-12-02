@@ -1,0 +1,82 @@
+body {
+  background-color: #f2f2f2ff;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #e04556;
+  margin: 0px;
+}
+
+h3 {
+	margin: 0;
+}
+
+li {
+	display: flex;
+	margin-top: 20px;
+}
+
+.buttons {
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+	display: none;
+}
+
+#addItemForm {
+	display: block;
+}
+
+#updateItemForm {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 50px;
+	display: none;
+}
+
+.addItemField {
+	margin-top: 10px;
+}
+
+.wrapper {
+	display: none;
+	justify-content: center;
+	width: 90%;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+	background-color: #FFF;
+	-webkit-box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+}
+
+.macros {
+	margin: 0px 10px;
+}
+
+#login-wrapper {
+	display: none;
+}
+
+.login-registration {
+	width: 500px;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+	background-color: #FFF;
+	-webkit-box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+}
+
+.registrationField, .loginField {
+	margin-top: 10px;
+}
+
+#websiteHeader {
+  border-bottom: solid;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
