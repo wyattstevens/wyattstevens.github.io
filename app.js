@@ -176,7 +176,7 @@ loginButton.onclick = function () {
 
 var deleteFood = function(foodID) {
 	if(confirm("Are you sure you want to delete this item?")) {
-		fetch("https:" + BASE_URL + "/foods/" + foodID, {
+		fetch("https://" + BASE_URL + "/foods/" + foodID, {
 			method: "DELETE",
 			credentials: "include"
 		}).then(function(response) {
